@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+   int a,b,c;
+   char string[150];
+   char reverse[150];
+   printf("Enter a string\t");
+   scanf("%s", str);
+   printf("The original string is %s", str);
+   for(i = 0; str[i] != '\0'; i++);
+   {
+      k = i+1;
+   }
+   for(j = 0; j <= i-1; j++)
+   {
+      rev[j] = str[k];
+      k--;
+   }
+   printf("The reverse string is %s", rev);
+   getch();
+}
