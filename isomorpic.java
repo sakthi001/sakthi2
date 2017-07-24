@@ -1,16 +1,16 @@
-public boolean isIsomorphic(String s, String t) {
-    if(s==null||t==null)
+public boolean isIsomorphic(String x, String y) {
+    if(x==null||y==null)
         return false;
  
-    if(s.length()!=t.length())
+    if(x.length()!=y.length())
         return false;
  
     HashMap<Character, Character> map = new HashMap<Character, Character>();
  
  
     for(int i=0; i<s.length(); i++){
-        char c1 = s.charAt(i);
-        char c2 = t.charAt(i);
+        char c1 = x.charAt(i);
+        char c2 = y.charAt(i);
  
         if(map.containsKey(c1)){
             if(map.get(c1)!=c2)
